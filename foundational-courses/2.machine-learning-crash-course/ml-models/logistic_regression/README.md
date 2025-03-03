@@ -18,10 +18,9 @@ A method used for classification that predicts the probability of an event happe
 
 ### 📈 **Sigmoid Function**  
 A mathematical function that squashes values between **0 and 1**, making it perfect for probability predictions.  
-Formula:  
-\[
-S(x) = \frac{1}{1 + e^{-x}}
-\]  
+
+S(x) = 1 / (1 + e^(-x))
+
 If the output is **close to 1**, the event is likely to happen. If it's **close to 0**, it's unlikely.  
 
 ---
