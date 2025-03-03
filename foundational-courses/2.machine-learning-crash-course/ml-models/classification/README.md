@@ -58,30 +58,26 @@ A table that shows how well the model classified data. It counts:
 
 ### 🎯 **Accuracy**  
 The percentage of correct predictions out of all predictions:  
-\[
-\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
-\]  
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
 ⚠️ **Be careful**: If the dataset is imbalanced, accuracy can be misleading.  
 
 ### 🚨 **False Positive Rate (FPR)**  
 The percentage of negative cases incorrectly predicted as positive:  
-\[
-\text{FPR} = \frac{FP}{FP + TN}
-\]  
+FPR = FP / (FP + TN)
+
 Example: Predicting someone has a disease when they don’t.  
 
 ### 🎯 **Precision**  
 Out of all predicted positives, how many were actually positive?  
-\[
-\text{Precision} = \frac{TP}{TP + FP}
-\]  
+Precision = TP / (TP + FP)
+
 Useful when false positives are costly (e.g., spam detection).  
 
 ### 📊 **Recall (Sensitivity)**  
 Out of all actual positives, how many did the model correctly predict?  
-\[
-\text{Recall} = \frac{TP}{TP + FN}
-\]  
+Recall = TP / (TP + FN)
+
 Important when missing positive cases is dangerous (e.g., detecting cancer).  
 
 ---
